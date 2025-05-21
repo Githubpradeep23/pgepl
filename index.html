@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Website Under Construction | Priyanka Green Energy</title>
+  <title>Website Under Construction</title>
   <style>
     body {
       margin: 0;
@@ -17,17 +17,11 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      overflow: hidden;
-    }
-
-    img.logo {
-      width: 180px;
-      margin-bottom: 30px;
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 15px;
+      font-size: 3rem;
+      margin-bottom: 20px;
       animation: glow 1.5s infinite alternate;
     }
 
@@ -41,15 +35,9 @@
     }
 
     .timer {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: bold;
       margin-top: 10px;
-    }
-
-    .footer-note {
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #aaa;
     }
 
     .overlay {
@@ -65,14 +53,11 @@
 </head>
 <body>
   <div class="overlay"></div>
-  <img src="logo.png" alt="PGEPL Logo" class="logo" />
   <h1>🚧 Website Under Construction 🚧</h1>
   <p class="timer" id="countdown">Loading countdown...</p>
-  <div class="footer-note">
-    For inquiries, contact us at <a href="mailto:info@pgepl.com" style="color:#00e1ff;">info@pgepl.com</a>
-  </div>
 
   <script>
+    // Set countdown target to 45 days from today
     const targetDate = new Date();
     targetDate.setDate(targetDate.getDate() + 45);
 
